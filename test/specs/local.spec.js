@@ -17,6 +17,7 @@ describe("Test spec example", () => {
     })
 
     it("open the youtube app", async () => {
-        await gptDriver.execute("open the youtube app");
+        await gptDriver.aiExecute("open the youtube app");
+        await gptDriver.setSessionSucceeded();
     });
 });
