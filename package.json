@@ -19,6 +19,6 @@
     "@wdio/spec-reporter": "^9.20.0"
   },
   "dependencies": {
-    "gpt-driver-node": "^1.0.13"
+    "gpt-driver-node": "^1.0.14"
   }
 }
